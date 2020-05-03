@@ -1,0 +1,11 @@
+javac --module-path "C:\Users\Abshir\Desktop\VLS;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml -classpath "C:\Users\Abshir\Desktop\VLS\*.jar;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib\*.jar" *.java
+
+java --module-path "C:\Users\Abshir\Desktop\VLS;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml -classpath "C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib\*.jar;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib\*.jar;." Server
+
+javadoc --module-path "C:\Users\Abshir\Desktop\VLS;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib" --add-modules javafx.controls,javafx.fxml -classpath "C:\Users\Abshir\Desktop\VLS\*.jar;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib\*.jar" *.java
+
+However these also work:
+
+javac --module-path "C:\Users\Abshir\Desktop\VLS;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib" --add-modules javafx.controls *java
+
+java --module-path "C:\Users\Abshir\Desktop\VLS;C:\Users\Abshir\Documents\javafx-sdk-11.0.2\lib" --add-modules javafx.controls Server
